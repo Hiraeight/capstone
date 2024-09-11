@@ -1,0 +1,32 @@
+.customers-say {
+    padding: 40px 20px;
+    text-align: center;
+    margin: auto 75px;
+  }
+  
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .testimonial {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .testimonial img {
+    max-width: 100%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonials {
+      grid-template-columns: 1fr;
+    }
+  }
+  

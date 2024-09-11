@@ -1,0 +1,228 @@
+/*Specials.css*/
+.specials {
+  padding: 40px 20px;
+  text-align: center;
+  margin: auto 75px;
+}
+
+.title-specials {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Ensures the title is on the left and the button is on the right */
+    width: 100%;
+    padding: 20px;
+}
+
+.heading-title {
+    flex: 1;
+    text-align: left;
+}
+
+.spcecials-heading {
+    font-size: 3rem;
+    color: #495e57;
+}
+
+.button-title {
+    flex: 1;
+    justify-content: flex-end; 
+    align-items: center;
+    flex: 0 0 auto;
+    padding-left: 10px;
+}
+
+.special-button {
+    padding: 20px;
+    font-size: 1rem;
+    background-color: #f4ce14;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    text-align: center;
+    max-width: 250px;
+    margin: 0;
+}
+
+.special-button:hover {
+    background-color: #e5b800;
+}
+
+.specials-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px; 
+  padding: 0; 
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.specials-container {
+    background: #edefee;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures items spread vertically */
+    align-items: center;
+    overflow: hidden;
+    height: 100%; /* Make sure the item takes full height */
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    padding: 0; /* Removes padding that could cause extra space */
+    margin: 0; /* Ensures no extra margin on the container */
+    box-sizing: border-box; /* Avoids overflow due to content */
+  }
+
+.specials-images {
+    width: 100%;
+    height: 25rem;
+  }
+
+.special-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; /* Ensures no extra space from inline elements */
+    border-radius: 0px;
+}
+
+.specials-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    margin: 0;
+}
+
+.header-title {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.header-price {
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    color: #EE9972;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.specials-description {
+    height: auto;
+    max-height: auto;
+  }
+
+.description-text {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+    padding: 0px 30px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+.specials-button {
+  border-bottom: 1px solid black;
+  margin: 50px 20px;
+}
+
+.order-button {
+    margin-top: auto; /* Pushes the button to the bottom */
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block; /* Makes it look like a button */
+}
+  
+.order-button:hover {
+    color: #e5b800;
+}
+
+.delivery-logo {
+    height: 3rem;
+}
+
+@media (max-width: 1024px) {
+    .specials {
+        padding: 0px 75px;
+        text-align: center;
+        margin: auto;
+      }
+      
+    .specials-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0px 50px;
+      }
+}
+
+@media (max-width: 768px) {
+    .title-specials {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+      padding: 0px 0px 20px 0px;
+    }
+    
+    .heading-title {
+        flex: 1;
+        text-align: center;
+        font-size: 1px;
+        color: #495e57;
+    }
+
+    .button-title {
+        flex: 1;
+        justify-content: flex-end; /* Aligns the button to the right of this div */
+        align-items: center; /* Center the button vertically */
+        flex: 0 0 auto; /* Prevents it from growing or shrinking */
+        padding-left: 0px;
+    }
+
+    .special-button {
+        padding: 15px;
+        font-size: 1rem;
+    }
+    
+    .specials-images {
+        height: 20rem;
+    }
+    
+    .specials-button {
+        border-bottom: 1px solid black;
+        margin: 20px 20px;
+    }
+  }
+
+@media (max-width: 430px) {
+    .specials {
+        padding: 0px 20px;
+        text-align: center;
+        margin: auto;
+      }
+      
+      .spcecials-heading {
+        font-size: 2rem;
+        color: #495e57;
+    }
+
+    .specials-container {
+      padding: 0px;
+    }
+}
