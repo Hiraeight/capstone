@@ -2,6 +2,7 @@
 import React from 'react';
 import './CallToAction.css';
 import image from './assets/restauranfood.jpg'; 
+import { Link } from 'react-router-dom';
 
 function CallToAction() {
   return (
@@ -15,9 +16,9 @@ function CallToAction() {
             nobis veniam perspiciatis sequi amet dolorum tenetur quidem
           </p>
             <div className="cta-button-title">
-                <a href='/' className="cta-button">
-                    Reserve a Table
-                </a>
+              <Link Link to="/booking" className="cta-button">
+                Reserve a Table
+              </Link>
             </div>
         </div>
         <div className="cta-image">
