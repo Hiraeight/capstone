@@ -5,6 +5,7 @@ import Main from './Main';
 import Footer from './Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BookingPage from './BookingPage';
+import UnderConstruction from './UnderConstruction';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/booking" element={<BookingPage />} />
+        <Route path="/under-construction" element={<UnderConstruction />} />
       </Routes>
       <Footer />
     </Router>

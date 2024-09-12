@@ -1,5 +1,6 @@
 // Specials.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Specials.css'; // Optional: Create this CSS file if you need specific styling
 import brushetta from './assets/Brushetta.jpg'
 import grilledFish from './assets/Grilled_Fish.jpg'
@@ -38,7 +39,7 @@ const specialsData = [
                 <h2 className="spcecials-heading">This Weeks Specials!</h2>
             </div>
             <div className="button-title">
-                <button className="special-button">Online Menu</button>
+                <Link to="/under-construction" className="special-button">Online Menu</Link>
             </div>
         </div>
         <div className="specials-list">
@@ -56,8 +57,8 @@ const specialsData = [
                             <h4 className="description-text">{special.description}</h4>
                         </div>
                         <div className="specials-button">
-                            <a href={special.link} className="order-button">Order a delivery</a> 
-                            </div>
+                            <Link to="/under-construction" className="order-button">Order a Delivery</Link>
+                        </div>
                     </article>
                 ))}
             </>
