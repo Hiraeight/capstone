@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 150px;
+  padding: auto 75px;
   background: #495e57;
 }
 
@@ -44,8 +44,8 @@
 }
 
 .cta-button {
-  padding: 10px 20px;
-  font-size: 1.5rem;
+  padding: 15px;
+  font-size: 1rem;
   background-color: #f4ce14;
   color: black;
   font-weight: bold;
@@ -56,7 +56,7 @@
   transition: background-color 0.3s;
   text-align: center;
   max-width: 250px;
-  margin-top: 50px; /* Remove auto from margin */
+  margin: 0; /* Remove unnecessary margins */
 }
 
 .cta-button:hover {
@@ -83,26 +83,10 @@
   padding-top:20px;
 }
 
-.cta-button {
-  padding: 15px;
-  font-size: 1rem;
-  background-color: #f4ce14;
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: background-color 0.3s;
-  text-align: center;
-  max-width: 250px;
-  margin: 0; /* Remove unnecessary margins */
-}
-
 /* Responsive styles */
 @media (max-width: 1024px) {
   .call-to-action {
-    padding: 0px 20px 20px 20px;
+    padding: auto 75px;
   }
 }
 
@@ -146,39 +130,31 @@
     margin-bottom: 10px;
     line-height: 1.6;
   }
-
-  .cta-button-title {
-    /* Prevents it from growing or shrinking */
-   padding-top:20px;
- }
-
-  .cta-button {
-    padding: 15px;
-    font-size: 1rem;
-    background-color: #f4ce14;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-    text-align: center;
-    max-width: 250px;
-    margin: 0; /* Remove unnecessary margins */
-  }
 }
 
 @media (max-width: 430px) {
-  .cta-h1 {
-    font-size: 2.5rem;
+  .cta-text {
+    padding: 0px;
   }
 
-  .cta-h2 {
+  .cta-h1 {
     font-size: 1.5rem;
   }
 
-  .cta-button {
+  .cta-h2 {
     font-size: 1rem;
   }
+  
+  .cta-p {
+    font-size: .8rem;
+  }
+
+  .cta-button {
+    font-size: .8rem;
+    padding: 10px;
+  }
+
+  .cta-button-title {
+   padding-top:10px;
+ }
 }

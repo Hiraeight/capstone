@@ -55,7 +55,7 @@ header img {
 }
 
 /* Media Queries for responsiveness */
-@media (max-width: 823px) {
+@media (max-width: 1024px) {
   /* Adjust header and nav to stack vertically */
   .header-nav-container {
     flex-direction: row;

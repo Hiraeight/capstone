@@ -21,7 +21,7 @@ const testimonials = [
 function CustomersSay() {
   return (
     <section className="customers-say">
-      <h2>Testimonials</h2>
+      <h2 className="testimonial-heading">Testimonials</h2>
       <div className="testimonials">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial">

@@ -23,10 +23,20 @@
     height: 100px;
     width: 100px;
   }
+
+  .testimonial-heading {
+    font-size: 3rem;
+    color: #495E57;
+  }
   
   @media (max-width: 768px) {
     .testimonials {
       grid-template-columns: 1fr;
     }
   }
-  
+
+  @media (max-width: 425px) {
+    .customers-say {
+      padding: 20px 20px;
+    }
+  }

@@ -1,0 +1,29 @@
+/* src/components/BookingForm.css */
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .booking-form {
+    display: grid;
+    gap: 20px;
+    max-width: 200px;
+  }
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }

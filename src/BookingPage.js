@@ -1,11 +1,10 @@
-// BookingPage.js
-function BookingPage() {
-  return (
-    <div>
-      <h1>Book a Table</h1>
-      {/* Add your booking form or content here */}
-    </div>
-  );
-}
+import BookingForm from './components/BookingForm';
 
+const BookingPage = () => {
+  return (
+    <section>
+      <BookingForm />
+    </section>
+  );
+};
 export default BookingPage;
