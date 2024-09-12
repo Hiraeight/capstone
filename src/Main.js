@@ -7,7 +7,6 @@ import Chicago from './Chicago';
 function Main() {
   return (
     <main>
-      {/* Adding IDs for navigation */}
       <section id="call-to-action">
         <CallToAction />
       </section>

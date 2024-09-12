@@ -5,7 +5,6 @@ import BookingForm from './BookingForm';
 import ConfirmedBooking from './ConfirmedBooking';
 
 const fetchAvailableTimes = async (date) => {
-  // Dummy data for testing; replace with actual API call if needed
   return ['10:00 AM', '11:00 AM', '12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM'];
 };
 
@@ -18,17 +17,15 @@ const Main = () => {
     fetchAvailableTimes(today).then(setAvailableTimes);
   }, []);
 
-  // Make sure this is correctly defined as a function
   const handleDateChange = (date) => {
-    console.log('handleDateChange called with date:', date); // Debug log
+    console.log('handleDateChange called with date:', date);
     fetchAvailableTimes(date).then(setAvailableTimes);
   };
 
   const submitForm = (formData) => {
-    // Replace with actual submit logic
-    const success = true; // Simulating a successful submission
+    const success = true;
     if (success) {
-      navigate('/confirmed-booking'); // Navigate to confirmation page on success
+      navigate('/confirmed-booking');
     }
   };
 
@@ -40,7 +37,7 @@ const Main = () => {
           element={
             <BookingForm
               availableTimes={availableTimes}
-              onDateChange={handleDateChange} // Ensure this is correctly passed
+              onDateChange={handleDateChange}
               submitForm={submitForm}
             />
           }

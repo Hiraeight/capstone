@@ -7,7 +7,6 @@ function HomePage() {
     <div>
       <CallToAction />
       <Specials />
-      {/* Add other sections like CustomersSay, Chicago, etc. */}
     </div>
   );
 }

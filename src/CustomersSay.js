@@ -1,4 +1,3 @@
-// Customersay.js
 import React from 'react';
 import './CustomersSay.css';
 
@@ -15,7 +14,6 @@ const testimonials = [
     comment: 'Lovely atmosphere and delicious meals.',
     image: 'https://i.pravatar.cc/150?img=9',
   },
-  // Add more testimonials as needed
 ];
 
 function CustomersSay() {

@@ -1,7 +1,7 @@
 // CallToAction.js
 import React from 'react';
 import './CallToAction.css';
-import image from './assets/restauranfood.jpg'; // Replace with your actual image path
+import image from './assets/restauranfood.jpg'; 
 
 function CallToAction() {
   return (
