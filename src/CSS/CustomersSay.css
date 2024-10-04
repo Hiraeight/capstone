@@ -39,4 +39,8 @@
     .customers-say {
       padding: 20px 20px;
     }
+
+    .testimonial-heading {
+      font-size: 2rem;
+    }
   }

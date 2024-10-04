@@ -1,6 +1,6 @@
 // UnderConstruction.js
 import React from 'react';
-import './UnderConstruction.css'; // Optional: Create this CSS file for specific styling
+import '../CSS/UnderConstruction.css'; // Optional: Create this CSS file for specific styling
 
 const UnderConstruction = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Chicago.css';
-import chicagoImage from './assets/Mario_and_Adrian_A.jpg';
+import '../CSS/Chicago.css';
+import chicagoImage from '../assets/Mario_and_Adrian_A.jpg';
 
 
 function Chicago() {

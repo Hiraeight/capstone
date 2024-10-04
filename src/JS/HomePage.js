@@ -1,10 +1,10 @@
-// Main.js
+// MainPage.js
 import CallToAction from './CallToAction';
 import Specials from './Specials';
 import CustomersSay from './CustomersSay';
 import Chicago from './Chicago';
 
-function Main() {
+function HomePage() {
   return (
     <main>
       <section id="call-to-action">
@@ -23,4 +23,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default HomePage;

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Footer.css';
+import '../CSS/Footer.css';
 import { Link } from 'react-router-dom';
-import logo from './assets/logo-footer.png'; 
-import facebookIcon from './assets/facebook-white.png';
-import instagramIcon from './assets/instagram-white.png';
-import twitterIcon from './assets/twitter-white.png';
+import logo from '../assets/logo-footer.png'; 
+import facebookIcon from '../assets/facebook-white.png';
+import instagramIcon from '../assets/instagram-white.png';
+import twitterIcon from '../assets/twitter-white.png';
 
 function Footer() {
   return (

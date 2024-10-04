@@ -1,7 +1,7 @@
 // CallToAction.js
 import React from 'react';
-import './CallToAction.css';
-import image from './assets/restauranfood.jpg'; 
+import '../CSS/CallToAction.css';
+import image from '../assets/restauranfood.jpg'; 
 import { Link } from 'react-router-dom';
 
 function CallToAction() {

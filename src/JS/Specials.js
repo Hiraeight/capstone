@@ -1,10 +1,10 @@
 // Specials.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Specials.css'; // Optional: Create this CSS file if you need specific styling
-import brushetta from './assets/Brushetta.jpg'
-import grilledFish from './assets/Grilled_Fish.jpg'
-import greekSalad from './assets/greek_salad.jpg'
+import '../CSS/Specials.css'; // Optional: Create this CSS file if you need specific styling
+import brushetta from '../assets/Brushetta.jpg'
+import grilledFish from '../assets/Grilled_Fish.jpg'
+import greekSalad from '../assets/greek_salad.jpg'
 
 
 const specialsData = [

@@ -1,10 +1,10 @@
-import './App.css';
+import '../CSS/App.css';
 import Header from './Header';
 import Nav from './Nav';
 import Main from './Main';
 import Footer from './Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import BookingPage from './BookingPage';
+import BookingPage from './components/Booking';
 import UnderConstruction from './UnderConstruction';
 
 function App() {
